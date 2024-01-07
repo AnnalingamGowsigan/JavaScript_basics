@@ -32,3 +32,14 @@ function coinToss(){
 }
 
 coinToss().then((data)=>{ console.log(data)}).catch((data)=>{console.log(data)});
+
+
+
+//Async Await
+//async - always returns a promise
+
+async function myFunc(){
+    return "hello world"
+}
+
+console.log(myFunc());
